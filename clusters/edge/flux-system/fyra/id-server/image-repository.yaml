@@ -1,0 +1,8 @@
+apiVersion: image.toolkit.fluxcd.io/v1beta1
+kind: ImageRepository
+metadata:
+  name: fyra-id-server
+  namespace: flux-system
+spec:
+  image: ghcr.io/fyralabs/id-server
+  interval: 1m0s

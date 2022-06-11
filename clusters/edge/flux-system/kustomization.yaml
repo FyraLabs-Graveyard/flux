@@ -7,3 +7,5 @@ resources:
   - discord-provider.yaml
   - github-alert.yaml
   - github-provider.yaml
+  - ./fyra/id-server/image-policy.yaml
+  - ./fyra/id-server/image-repository.yaml

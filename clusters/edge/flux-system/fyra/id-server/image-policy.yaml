@@ -1,0 +1,11 @@
+apiVersion: image.toolkit.fluxcd.io/v1beta1
+kind: ImagePolicy
+metadata:
+  name: fyra-id-server
+  namespace: flux-system
+spec:
+  imageRepositoryRef:
+    name: fyra-id-server
+  policy:
+    semver:
+      range: ">=1.0.0"
